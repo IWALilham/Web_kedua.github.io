@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman gambar</title>
+    <title>Portofolio x</title>
 </head>
 
 <body>
@@ -15,7 +15,6 @@
     <div><a href="Halaman prestasi.php">Prestasi</a></div>
     <div><a href="Halaman anggota.php">Anggota</a></div>
     <div><a href="Halaman portofolio.php">Portofolio</a></div>
-
 </body>
 
 </html>
