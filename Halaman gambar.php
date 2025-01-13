@@ -8,6 +8,7 @@
 </head>
 
 <body>
+    <div>
     <div><a href="Halaman index.php">Beranda</a></div>
     <div><a href="Barang jualan.php">Barang Jualan</a></div>
     <div><a href="Halaman jasa.php">Jasa</a></div>
@@ -15,7 +16,7 @@
     <div><a href="Halaman prestasi.php">Prestasi</a></div>
     <div><a href="Halaman anggota.php">Anggota</a></div>
     <div><a href="Halaman portofolio.php">Portofolio</a></div>
-
+    </div>
 </body>
 
 </html>
