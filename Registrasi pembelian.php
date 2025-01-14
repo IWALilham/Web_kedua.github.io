@@ -6,10 +6,14 @@ if (isset($_POST["register"])){
         echo "<script>
         alert('Pembeli baru berhasil ditambahkan');
         </script>";
+        header("Location: Login admin.php");
+        exit;
     }else{
         echo mysqli_error($db);
     }
+
 }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

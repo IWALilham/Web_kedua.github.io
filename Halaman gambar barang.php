@@ -1,10 +1,17 @@
+<?php 
+require "function.php";
+
+$id = $_GET["id"];
+
+$penjual = query("SELECT * FROM barang_jualan WHERE id = $id")[0];
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman gambar</title>
+    <title>Gambar jualan</title>
 </head>
 
 <body>
@@ -16,6 +23,17 @@
     <div><a href="Halaman prestasi.php">Prestasi</a></div>
     <div><a href="Halaman anggota.php">Anggota</a></div>
     <div><a href="Halaman portofolio.php">Portofolio</a></div>
+    </div>
+
+    <div>
+        <img src="img/<?= $penjual["Gambar"] ?>" alt="No image">
+        <p><?= $penjual["Nama_barang"] ?></p>
+        <p><?= $penjual["Deskripsi"] ?></p>
+        <p>Jumlah stok : <?= $penjual["Jumlah"] ?></p>
+        <p>Harga : <?= $penjual["Harga"] ?></p>
+        <div class="">
+            <div class=""><a href="Registrasi admin.php">Pesan</a></div>
+        </div>
     </div>
 </body>
 

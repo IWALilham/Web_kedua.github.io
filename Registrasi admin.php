@@ -6,9 +6,14 @@ if (isset($_POST["register"])){
         echo "<script>
         alert('user baru berhasil ditambahkan');
         </script>";
+        $_SESSION["Login"] = true;
+        header("Location: Halaman admin.php");
+        exit;
     }else{
         echo mysqli_error($db);
     }
+
+
 }
 ?>
 <!DOCTYPE html>

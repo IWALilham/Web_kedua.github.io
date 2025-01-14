@@ -1,5 +1,12 @@
 <?php 
+require "function.php";
+session_start();
+if(!isset($_SESSION["Login"])) {
+    header("Location: Login admin.php");
+    exit;
+}
 
+$orang = action("SELECT * FROM pembeli ORDER BY id DESC ");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,17 +26,16 @@
     <th>Pesan</th>
 </tr>
 
-<?php ?><!-- untuk pengulangan -->
+<?php foreach ($orang as $org):?><!-- untuk pengulangan -->
 <tr>
-    <td><?php  ?></td>
-    <td><?php  ?></td>
-    <td><?php  ?></td>
-    <td><?php  ?></td>
-    <td><?php  ?></td>
-    <td><?php  ?></td>
-    <td><?php  ?></td>
+    <td><?= $org ["Nama"]  ?></td>
+    <td><?= $org ["Nomor"]  ?></td>
+    <td><?= $org ["Alamat"]  ?></td>
+    <td><?= $org ["Barang"]  ?></td>
+    <td><?= $org ["Jumlah"]  ?></td>
+    <td><?= $org ["Pesan"]  ?></td>
 </tr>
-<?php ?><!-- untuk pengulangan -->
+<?php endforeach ;?><!-- untuk pengulangan -->
 </table>
 
 </body>
