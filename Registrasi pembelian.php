@@ -2,7 +2,7 @@
 require 'function.php';
 if (isset($_POST["register"])){
 
-    if(Registrasi($_POST) > 0) {
+    if(pembelian($_POST) > 0) {
         echo "<script>
         alert('Pembeli baru berhasil ditambahkan');
         </script>";
@@ -25,31 +25,31 @@ if (isset($_POST["register"])){
 </head>
 <body>
 <h1>Registrasi Admin</h1>
-<form action="" method="post" autocomplete="off">
+<form action="" method="post" >
     <ul>
         <li>
             <label for="Nama">Nama :</label>
-            <input type="text" name="Nama" id="Nama" required>
+            <input type="text" name="Nama" id="Nama" autocomplete="off" required>
         </li>
         <li>
             <label for="Nomor">Nomor Telp/Wa :</label>
-            <input type="Nomor" name="Nomor" id="Nomor" required>
+            <input type="Number" name="Nomor" id="Nomor"autocomplete="off" required>
         </li>
         <li>
             <label for="Alamat pengiriman">Alamat pengiriman :</label>
-            <input type="password" name="Alamat pengiriman" id="Alamat pengiriman" required>
+            <input type="text" name="Alamat pengiriman" id="Alamat pengiriman" autocomplete="off"required>
         </li>
         <li>
             <label for="Barang">Barang  :</label>
-            <input type="password" name="Barang" id="Barang" required>
+            <input type="text" name="Barang" id="Barang" autocomplete="off" required>
         </li>
         <li>
             <label for="Jumlah">Jumlah :</label>
-            <input type="password" name="Jumlah" id="Jumlah" required>
+            <input type="Number" name="Jumlah" id="Jumlah"autocomplete="off" required>
         </li>
         <li>
             <label for="Pesan">Permintaan :</label>
-            <input type="password" name="Pesan" id="Pesan" required>
+            <input type="text" name="Pesan" id="Pesan"autocomplete="off" required>
         </li>
         <li>
             <button type="submit" name="register">Submit</button>
