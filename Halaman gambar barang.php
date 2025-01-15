@@ -32,7 +32,7 @@ $penjual = action("SELECT * FROM barang_jualan WHERE id = $id")[0];
         <p>Jumlah stok : <?= $penjual["Jumlah"] ?></p>
         <p>Harga : <?= $penjual["Harga"] ?></p>
         <div class="">
-            <div class=""><a href="Registrasi admin.php">Pesan</a></div>
+            <div class=""><a href="Registrasi pembelian.php">Pesan</a></div>
         </div>
     </div>
 </body>

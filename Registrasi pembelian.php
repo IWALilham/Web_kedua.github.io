@@ -24,7 +24,7 @@ if (isset($_POST["register"])){
 <link rel="stylesheet" href="Registrasi.css">
 </head>
 <body>
-<h1>Registrasi Admin</h1>
+<h1>Registrasi Pembelian</h1>
 <form action="" method="post" >
     <ul>
         <li>
