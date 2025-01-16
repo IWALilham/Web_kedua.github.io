@@ -19,7 +19,7 @@ $anggota = action("SELECT * FROM anggota ORDER BY id DESC");
         <div><a href="Halaman tentang kami.php">Tentang Kami</a></div>
         <div><a href="Halaman prestasi.php">Prestasi</a></div>
         <div><a href="Halaman anggota.php">Anggota</a></div>
-        <div><a href="Halaman portofolio.php">Portofolio</a></div>
+        <div><a href="Halaman galeri.php">Portofolio</a></div>
     </div>
 
 <!-- gasan gambar lawan keterangan anggota -->
