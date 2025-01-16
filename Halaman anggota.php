@@ -22,16 +22,13 @@ $anggota = action("SELECT * FROM anggota ORDER BY id DESC");
         <div><a href="Halaman portofolio.php">Portofolio</a></div>
     </div>
 
-    <!-- gasan gambar lawan keterangan anggota -->
-    <div>
-        <div><img src="" alt=""></div>
-        <p></p>
-    </div>
-
-    <!-- untuk opsi-nya -->
+<!-- gasan gambar lawan keterangan anggota -->
     <div>
         <?php foreach ($anggota as $agt): ?>
-            <div><?= $agt["nama"] ?></div>
+            <div><img src="<?=$agt ["Gambar"] ?>" alt=""></div>
+            <p><?= $agt["Nama"] ?></p>
+            <p><?=$agt["Jabatan"]?></p>
+            <p><?=$agt["Riwayat"]?></p>
         <?php endforeach; ?>
     </div>
 </body>

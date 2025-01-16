@@ -1,7 +1,7 @@
-<?php 
+<?php
 require "function.php";
-$portofolio = action("SELECT * FROM portofolio ORDER BY id DESC") 
-?>
+$portofolio = action("SELECT * FROM portofolio ORDER BY id DESC")
+    ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,12 +23,12 @@ $portofolio = action("SELECT * FROM portofolio ORDER BY id DESC")
     </div>
     <div>
         <?php foreach ($portofolio as $ptf): ?>
-        <div>
-            <img src="img_portofolio/<?= $ptf["Gambar"] ?>" alt="No Image">
-            <p><?= $ptf["Deskripsi"] ?></p>
-            <p><?= $ptf["Tanggal"] ?></p>
-        </div>
-        <?php endforeach;?>
+            <div>
+                <img src="img_portofolio/<?= $ptf["Gambar"] ?>" alt="No Image">
+                <p><?= $ptf["Deskripsi"] ?></p>
+                <p><?= $ptf["Tanggal"] ?></p>
+            </div>
+        <?php endforeach; ?>
     </div>
 </body>
 

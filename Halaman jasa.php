@@ -56,7 +56,7 @@
         </li>
     </ul>
     <div id="1">
-        <img src="" alt="">
+        <img src="img_sementara/gambar (4).jpg" alt="Bi image">
         <p>Kami dengan bangga menerima berbagai permintaan dekorasi mesjid dengan konsep-konsep yang beragam dan
             inovatif yang sesuai dengan kebutuhan dan preferensi Anda. Tim kami yang berpengalaman dan kreatif siap
             untuk mewujudkan dekorasi mesjid impian Anda, baik untuk acara keagamaan, perayaan hari besar Islam, atau
@@ -76,7 +76,7 @@
             mesjid Anda tempat yang indah dan berkesan.</p>
     </div>
     <div id="2">
-        <img src="" alt="">
+        <img src="img_sementara/gambar (23).jpg" alt="No image">
         <p>Kami dengan senang hati menerima berbagai permintaan dekorasi kamar dengan konsep-konsep yang beragam dan
             kreatif yang sesuai dengan keinginan dan kebutuhan Anda. Tim kami yang berpengalaman dan berdedikasi siap
             untuk mengubah kamar Anda menjadi ruang yang nyaman, estetis, dan fungsional, sesuai dengan gaya pribadi
@@ -96,7 +96,7 @@
             Anda tempat yang indah dan berkesan.</p>
     </div>
     <div id="3">
-        <img src="" alt="">
+        <img src="img_sementara/gambar (22).jpg" alt="No image">
         <p>Kami dengan bangga menerima berbagai permintaan dekorasi pelaminan dengan konsep-konsep yang elegan dan unik
             yang sesuai dengan tema pernikahan impian Anda. Tim kami yang berpengalaman dan kreatif siap untuk
             menciptakan pelaminan yang indah dan berkesan, sesuai dengan preferensi dan kebutuhan Anda.
@@ -116,7 +116,7 @@
             hari pernikahan Anda momen yang tak terlupakan.</p>
     </div>
     <div id="4">
-        <img src="" alt="">
+        <img src="img_sementara/gambar (25).jpg" alt="No image">
         <p>Kami dengan antusias menerima berbagai permintaan dekorasi dinding/tembok dengan konsep-konsep yang kreatif
             dan estetis yang sesuai dengan selera dan kebutuhan Anda. Tim kami yang berpengalaman dan inovatif siap
             untuk mengubah dinding/tembok Anda menjadi karya seni yang memikat dan inspiratif, sesuai dengan gaya dan
@@ -136,7 +136,9 @@
             menjadikan dinding/tembok Anda karya seni yang menawan dan berkesan.</p>
     </div>
     <div id="5">
-        <img src="" alt="">
+        <img src="img_sementara/gambar (20).jpg" alt="No image">
+        <img src="img_sementara/gambar (17).jpg" alt="No image">
+        <img src="img_sementara/gambar (17).jpg" alt="No image">
         <p>Kami dengan bangga menerima berbagai permintaan pembuatan perabotan mesjid dengan desain-desain yang elegan
             dan fungsional yang sesuai dengan kebutuhan dan keindahan mesjid Anda. Tim kami yang berpengalaman dan
             berdedikasi siap untuk menciptakan perabotan yang nyaman, berkualitas, dan estetis, sesuai dengan standar
@@ -156,7 +158,7 @@
             menjadikan mesjid Anda tempat yang indah dan berkesan.</p>
     </div>
     <div id="6">
-        <img src="" alt="">
+        <img src="img_sementara/Gambar WhatsApp 2025-01-16 pukul 08.36.37_91d8985e.jpg" alt="No image">
         <p>Kami dengan antusias menerima berbagai permintaan pembuatan karya gabus dengan desain-desain yang kreatif dan
             inovatif yang sesuai dengan kebutuhan dan preferensi Anda. Tim kami yang berpengalaman dan berdedikasi siap
             untuk mengubah gabus menjadi karya seni yang memikat dan fungsional, sesuai dengan visi Anda.
@@ -175,7 +177,7 @@
             karya gabus Anda menjadi sesuatu yang indah dan berkesan.</p>
     </div>
     <div id="7">
-        <img src="" alt="">
+        <img src="img_sementara/gambar (18).jpg" alt="No image">
         <p>Kami dengan bangga menerima berbagai permintaan pembuatan qalam dengan desain-desain yang elegan dan
             berkualitas tinggi yang sesuai dengan kebutuhan dan preferensi Anda. Tim kami yang berpengalaman dan
             berdedikasi siap untuk menciptakan qalam yang indah dan fungsional, sesuai dengan standar dan keindahan yang
@@ -195,7 +197,7 @@
             Anda karya yang berkesan dan bernilai.</p>
     </div>
     <div id="8">
-        <img src="" alt="">
+        <img src="img_sementara/gambar (19).jpg" alt="No image">
         <p>Kami dengan bangga menerima berbagai permintaan pembuatan karya kaligrafi dengan desain-desain yang indah dan
             artistik yang sesuai dengan kebutuhan dan preferensi Anda. Tim kami yang berpengalaman dan berbakat siap
             untuk menciptakan kaligrafi yang memikat dan berkualitas tinggi, sesuai dengan standar seni yang Anda
@@ -215,7 +217,7 @@
             menjadikan karya kaligrafi Anda sesuatu yang indah dan bermakna.</p>
     </div>
     <div id="9">
-        <img src="" alt="">
+        <img src="img_sementara/gambar (1).jpg" alt="No image">
         <p>Kami dengan senang hati menerima berbagai permintaan pembuatan lemari dengan desain-desain yang fungsional
             dan estetis yang sesuai dengan kebutuhan dan preferensi Anda. Tim kami yang berpengalaman dan berdedikasi
             siap untuk menciptakan lemari yang indah, kokoh, dan praktis, sesuai dengan standar dan keinginan Anda.

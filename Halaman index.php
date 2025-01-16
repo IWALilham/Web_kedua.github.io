@@ -44,18 +44,13 @@ $barang = action("SELECT * FROM barang_jualan ORDER BY id DESC ");
 
     <!-- Gasan sebagai galeri  -->
     <div>
-        <img src="" class="gambar1">
-        <img src="" class="gambar2">
-        <img src="" class="gambar3">
-        <img src="" class="gambar4">
-        <img src="" class="gambar5">
+        <img src="img_galeri/IMG-20250116-WA0003.jpg" class="gambar1">
+        <img src="img_galeri/IMG-20250116-WA0012.jpg" class="gambar2">
+        <img src="img_galeri/IMG-20250116-WA0005.jpg" class="gambar3">
+        <img src="img_galeri/IMG-20250116-WA0010.jpg" class="gambar4">
+        <img src="img_galeri/IMG-20250116-WA0013.jpg" class="gambar5">
     </div>
     <button>Tampilkan lebih</button>
-
-    <!-- Bagian akhir untuk media sosial dan gasan menghubungi -->
-    <div></div><!-- bagian media sosial -->
-    <div></div><!-- bagian nama anggota -->
-    <div></div><!-- bagian cara menghubungi atau nomor telpon yang bisa dihubungi -->
 
 </body>
 
