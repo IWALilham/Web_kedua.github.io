@@ -42,7 +42,23 @@ if (isset($_POST["submit_2"])) {
 }
 
 if (isset($_POST["submit_3"])) {
-    if (tambah_portofolio($_POST) > 0) {
+    if (tambah_galeri($_POST) > 0) {
+        echo "
+        <script>
+        alert ('Data berhasil ditambahkan!');
+        </script>
+    ";
+    } else {
+        echo "
+    <script>
+        alert ('Data gagal ditambahkan!');
+        </script>
+    ";
+    }    
+}
+
+if (isset($_POST["submit_4"])) {
+    if (tambah_prestasi($_POST) > 0) {
         echo "
         <script>
         alert ('Data berhasil ditambahkan!');
@@ -56,6 +72,7 @@ if (isset($_POST["submit_3"])) {
     ";
     }
 
+    
 }
 ?>
 <!DOCTYPE html>
@@ -158,9 +175,10 @@ if (isset($_POST["submit_3"])) {
             </ul>
         </form>
     </div>
-
+<h1>Tambah data portofolio</h1>
     <div>
         <ul>
+        <form action="" method="post" enctype="multipart/form-data">
             <li>
                 <label for="Gambar">Gambar :</label>
                 <input type="file" name="Gambar" id="Gambar" autocomplete="off">
@@ -178,8 +196,36 @@ if (isset($_POST["submit_3"])) {
             <br>
                 <button type="submit" name="submit_3">Tambah data !</button>
         </ul>
+        </form>
     </div>
-
+    <h1>Tambahan data prestasi</h1>
+    <div>
+    <form action="" method="post" enctype="multipart/form-data">
+        <ul>
+        <li>
+                <label for="Nama">Nama :</label>
+                <input type="text" name="Nama" id="Nama" autocomplete="off">
+            </li>
+            <br>
+            <li>
+                <label for="Gambar">Gambar :</label>
+                <input type="file" name="Gambar" id="Gambar" autocomplete="off">
+            </li>
+            <br>
+            <li>
+                <label for="Deskripsi">Deskripsi</label>
+                <input type="text" name="Deskripsi" id="Deskripsi" autocomplete="off">
+            </li>
+            <br>
+            <li>
+                <label for="Tanggal">Tanggal</label>
+                <input type="date" name="Tanggal" id="Tanggal" autocomplete="off">
+            </li>
+            <br>
+                <button type="submit" name="submit_4">Tambah data !</button>
+        </ul>
+        </form>
+    </div>
 </body>
 
 </html>

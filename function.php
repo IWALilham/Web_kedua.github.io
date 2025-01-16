@@ -196,7 +196,7 @@ function upload_2()
 }
 
 
-function tambah_portofolio($data)
+function tambah_galeri($data)
 {
     global $db;
 
@@ -210,7 +210,7 @@ function tambah_portofolio($data)
     }
 
     //query insert data
-    $query = "INSERT INTO portofolio(Gambar,Deskripsi,Tanggal) VALUES ('$Gambar','$Deskripsi','$Tanggal')";
+    $query = "INSERT INTO galeri (Gambar,Deskripsi,Tanggal) VALUES ('$Gambar','$Deskripsi','$Tanggal')";
     mysqli_query($db, $query);
 
     return mysqli_affected_rows($db);
@@ -257,6 +257,72 @@ function upload_3()
 
     //lolos pengecekan, gambar siap upload
     move_uploaded_file($tmpName, 'img_portofolio/' . $namaFileBaru);
+    return $namaFileBaru;
+}
+
+
+function tambah_prestasi($data)
+{
+    global $db;
+    $Nama = htmlspecialchars($data["Nama"]);
+    $Prestasi = htmlspecialchars($data["Prestasi"]);
+    $Deskripsi = htmlspecialchars($data["Deskripsi"]);
+    $Tanggal = htmlspecialchars($data["Tanggal"]);
+
+    //upload gambar
+    $Gambar = upload_4();
+    if (!$Gambar) {
+        return false;
+    }
+
+    //query insert data
+    $query = "INSERT INTO prestasi(Nama,Gambar,Prestasi,Deskripsi,Tanggal) VALUES ('$Nama','$Prestasi','$Gambar','$Deskripsi','$Tanggal')";
+    mysqli_query($db, $query);
+
+    return mysqli_affected_rows($db);
+
+}
+function upload_4()
+{
+    $namaFile = $_FILES["Gambar"]["name"];
+    $ukuranFile = $_FILES["Gambar"]["size"];
+    $error = $_FILES["Gambar"]["error"];
+    $tmpName = $_FILES["Gambar"]["tmp_name"];
+
+    //cek apakah tidak ada gambar yang diuploas
+    if ($error === 4) {
+        echo "<script>
+        alert('Pilih gambar terlebih dahulu');
+        </script>";
+        return false;
+    }
+
+    //cek apakah yang diupload adalah gambar
+    $ekstensiGambarValid = ['jpg', 'jpeg', 'png'];
+    $ekstensiGambar = explode('.', $namaFile);
+    $ekstensiGambar = strtolower(end($ekstensiGambar));
+    if (!in_array($ekstensiGambar, $ekstensiGambarValid)) {
+        echo " <script>
+            alert('Yang anda upload bukan gambar!');
+            </script>";
+        return false;
+    }
+
+    //cek jika ukurannya terlalu besar
+    if ($ukuranFile > 1000000) {
+        echo "<script>
+            alert('Ukuran gambar terlalu besar !');
+            </script>";
+        return false;
+    }
+
+    //generate nama gambar baru
+    $namaFileBaru = uniqid();
+    $namaFileBaru .= '.';
+    $namaFileBaru .= $ekstensiGambar;
+
+    //lolos pengecekan, gambar siap upload
+    move_uploaded_file($tmpName, 'img_prestasi/' . $namaFileBaru);
     return $namaFileBaru;
 }
 ?>

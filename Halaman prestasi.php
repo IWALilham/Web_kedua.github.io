@@ -32,7 +32,7 @@ $prestasi = action("SELECT * FROM prestasi ORDER BY DESC")
             <a href="Halaman anggota.php">Anggota</a>
         </div>
         <div>
-            <a href="Halaman portofolio.php">Portofolio</a>
+            <a href="Halaman galeri.php">Portofolio</a>
         </div>
     </div>
 

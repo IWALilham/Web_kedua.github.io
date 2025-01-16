@@ -18,7 +18,7 @@ $barang = action("SELECT * FROM barang_jualan ORDER BY id DESC ");
     <div><a href="Halaman tentang kami.php">Tentang Kami</a></div>
     <div><a href="Halaman prestasi.php">Prestasi</a></div>
     <div><a href="Halaman anggota.php">Anggota</a></div>
-    <div><a href="Halaman portofolio.php">Portofolio</a></div>
+    <div><a href="Halaman galeri.php">Galeri</a></div>
 
     <!-- untuk content perkenalan -->
     <div>
@@ -44,13 +44,13 @@ $barang = action("SELECT * FROM barang_jualan ORDER BY id DESC ");
 
     <!-- Gasan sebagai galeri  -->
     <div>
-        <img src="img_galeri/IMG-20250116-WA0003.jpg" class="gambar1">
-        <img src="img_galeri/IMG-20250116-WA0012.jpg" class="gambar2">
-        <img src="img_galeri/IMG-20250116-WA0005.jpg" class="gambar3">
-        <img src="img_galeri/IMG-20250116-WA0010.jpg" class="gambar4">
-        <img src="img_galeri/IMG-20250116-WA0013.jpg" class="gambar5">
+        <img src="img_galeri_sementara/IMG-20250116-WA0003.jpg" class="gambar1">
+        <img src="img_galeri_sementara/IMG-20250116-WA0012.jpg" class="gambar2">
+        <img src="img_galeri_sementara/IMG-20250116-WA0005.jpg" class="gambar3">
+        <img src="img_galeri_sementara/IMG-20250116-WA0010.jpg" class="gambar4">
+        <img src="img_galeri_sementara/IMG-20250116-WA0013.jpg" class="gambar5">
     </div>
-    <button>Tampilkan lebih</button>
+    <button><a href="Halaman galeri.php">Tampilkan lebih</a></button>
 
 </body>
 

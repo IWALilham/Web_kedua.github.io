@@ -1,6 +1,6 @@
 <?php
 require "function.php";
-$portofolio = action("SELECT * FROM portofolio ORDER BY id DESC")
+$portofolio = action("SELECT * FROM galeri ORDER BY id DESC")
     ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,7 +19,7 @@ $portofolio = action("SELECT * FROM portofolio ORDER BY id DESC")
         <div><a href="Halaman tentang kami.php">Tentang Kami</a></div>
         <div><a href="Halaman prestasi.php">Prestasi</a></div>
         <div><a href="Halaman anggota.php">Anggota</a></div>
-        <div><a href="Halaman portofolio.php">Portofolio</a></div>
+        <div><a href="Halaman galeri.php">Portofolio</a></div>
     </div>
     <div>
         <?php foreach ($portofolio as $ptf): ?>
