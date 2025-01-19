@@ -12,6 +12,7 @@ $barang = action("SELECT * FROM barang_jualan ORDER BY id DESC");
     <title>Barang Jualan x</title>
 </head>
 
+    
 <body>
     <div>
         <div><a href="Halaman index.php">Beranda</a></div>
