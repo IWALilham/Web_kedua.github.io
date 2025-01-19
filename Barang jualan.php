@@ -30,7 +30,7 @@ $barang = action("SELECT * FROM barang_jualan ORDER BY id DESC");
         <?php foreach ($barang as $dj): ?>
             <div>>
                 <a href="Halaman gambar.php?id=<?= $dj['id'] ?>">
-                    <img src="img/<?= $dj['Gambar'] ?>" alt="Gambar Barang">
+                    <img src="img_jualan/<?= $dj['Gambar'] ?>" alt="Gambar Barang">
                 </a>
                 <div class="">
                     <p class=""><?= $dj['Nama_barang'] ?></p>
