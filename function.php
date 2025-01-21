@@ -1,5 +1,5 @@
 <?php
-$db = mysqli_connect("127.0.0.1", "root", "muhammad ilham 2372005", "web_kedua");
+$db = mysqli_connect("127.0.0.1", "root", "muhammadilham2372005", "web_kedua");
 
 function action($query)
 {
@@ -57,7 +57,7 @@ function pembelian($data)
     $Pesan = htmlspecialchars($data["Pesan"]);
 
     //tambahkan Pembeli ke database
-    mysqli_query($db, "INSERT INTO admin (Nama, Nomor, Alamat, Barang, Jumlah, Pesan) VALUES('$Nama','$Nomor','$Alamat','$Barang','$Jumlah','$Pesan',)");
+    mysqli_query($db, "INSERT INTO pembeli (Nama, Nomor, Alamat, Barang, Jumlah, Pesan) VALUES('$Nama','$Nomor','$Alamat','$Barang','$Jumlah','$Pesan',)");
 
     return mysqli_affected_rows($db);
 }
@@ -276,7 +276,8 @@ function tambah_prestasi($data)
     }
 
     //query insert data
-    $query = "INSERT INTO prestasi(Nama,Gambar,Prestasi,Deskripsi,Tanggal) VALUES ('$Nama','$Prestasi','$Gambar','$Deskripsi','$Tanggal')";
+    $query = "INSERT INTO prestasi (Nama,Gambar,Prestasi,Deskripsi,Tanggal) VALUES ('$Nama','$Prestasi','$Gambar','$Deskripsi','$Tanggal')";
+    
     mysqli_query($db, $query);
 
     return mysqli_affected_rows($db);

@@ -22,11 +22,11 @@ $penjual = action("SELECT * FROM barang_jualan WHERE id = $id")[0];
     <div><a href="Halaman tentang kami.php">Tentang Kami</a></div>
     <div><a href="Halaman prestasi.php">Prestasi</a></div>
     <div><a href="Halaman anggota.php">Anggota</a></div>
-    <div><a href="Halaman galeri.php">Portofolio</a></div>
+    <div><a href="Halaman galeri.php">Galeri</a></div>
     </div>
 
     <div>
-        <img src="img/<?= $penjual["Gambar"] ?>" alt="No image">
+        <img src="img_jualan/<?= $penjual["Gambar"] ?>" alt="No image">
         <p><?= $penjual["Nama_barang"] ?></p>
         <p><?= $penjual["Deskripsi"] ?></p>
         <p>Jumlah stok : <?= $penjual["Jumlah"] ?></p>

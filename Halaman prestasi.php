@@ -1,6 +1,6 @@
 <?php
 require "function.php";
-$prestasi = action("SELECT * FROM prestasi ORDER BY DESC")
+$prestasi = action("SELECT * FROM prestasi ORDER BY ID DESC")
     ?>
 <!DOCTYPE html>
 <html lang="en">

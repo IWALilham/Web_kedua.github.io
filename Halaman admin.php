@@ -175,7 +175,7 @@ if (isset($_POST["submit_4"])) {
             </ul>
         </form>
     </div>
-<h1>Tambah data portofolio</h1>
+<h1>Tambah data galeri</h1>
     <div>
         <ul>
         <form action="" method="post" enctype="multipart/form-data">
@@ -215,6 +215,11 @@ if (isset($_POST["submit_4"])) {
             <li>
                 <label for="Deskripsi">Deskripsi</label>
                 <input type="text" name="Deskripsi" id="Deskripsi" autocomplete="off">
+            </li>
+            <br>
+            <li>
+                <label for="Prestasi">Prestasi</label>
+                <input type="text" name="Prestasi" id="Prestasi" autocomplete="off">
             </li>
             <br>
             <li>
